@@ -7,10 +7,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class FirstScreenViewController: UIViewController {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
+    @IBOutlet weak var emailText: UITextField!
+    
+    @IBAction func confirmationButtonPressed(_ sender: UIButton) {
+        showConfirmationAlert()
     }
-}
+    
+    func showConfirmationAlert(){
+        let alert = UIAlertController(title: "Tudo pronto.", message: "Email \(emailText.text!) cadastrado com sucesso.\nEm breve você começará a receber oportunidades imperdíveis.", preferredStyle: .alert)
+        
+        alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
+        
+        self.present(alert, animated: true, completion: nil)
+    }
+    }
+    
