@@ -12,6 +12,7 @@
 		58E560B72795F416006D3EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E560B52795F416006D3EE1 /* Main.storyboard */; };
 		58E560B92795F418006D3EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58E560B82795F418006D3EE1 /* Assets.xcassets */; };
 		58E560BC2795F419006D3EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58E560BA2795F419006D3EE1 /* LaunchScreen.storyboard */; };
+		D9AC0F3F290484A0004084A5 /* FirstScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AC0F3E290484A0004084A5 /* FirstScreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		58E560B82795F418006D3EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58E560BB2795F419006D3EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58E560BD2795F419006D3EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9AC0F3E290484A0004084A5 /* FirstScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreenViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				58E560AF2795F416006D3EE1 /* AppDelegate.swift */,
 				58E560B12795F416006D3EE1 /* SceneDelegate.swift */,
+				D9AC0F3E290484A0004084A5 /* FirstScreenViewController.swift */,
 				58E560B52795F416006D3EE1 /* Main.storyboard */,
 				58E560B82795F418006D3EE1 /* Assets.xcassets */,
 				58E560BA2795F419006D3EE1 /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9AC0F3F290484A0004084A5 /* FirstScreenViewController.swift in Sources */,
 				58E560B02795F416006D3EE1 /* AppDelegate.swift in Sources */,
 				58E560B22795F416006D3EE1 /* SceneDelegate.swift in Sources */,
 			);
